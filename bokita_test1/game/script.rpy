@@ -1,6 +1,94 @@
 ﻿# 游戏的脚本可置于此文件中。
 
-# 声明此游戏使用的角色。颜色参数可使角色姓名着色。
+# 声明使用到的人物立绘
+
+layeredimage kita1:
+    
+    group base:
+        attribute s1 default:
+            "kita base1"
+        attribute s2:
+            "kita base2"
+
+    group flush:
+        attribute f0 default:
+            "kita f0"
+        attribute f1:
+            "kita f1"
+
+    group leftarm:
+        attribute a1 default:
+            "kita a1"
+        attribute a2:
+            "kita a2"
+        attribute a3:
+            "kita a3"
+
+    group mouth:
+        attribute m1 default:
+            "kita m1"
+        attribute m2:
+            "kita m2"
+        attribute m3:
+            "kita m3"
+        attribute m4:
+            "kita m4"
+        attribute m5:
+            "kita m5"
+        attribute m6:
+            "kita m6"
+        attribute m7:
+            "kita m7"
+        attribute m8:
+            "kita m8"
+        attribute m9:
+            "kita m9"
+        attribute m10:
+            "kita m10"
+        attribute m11:
+            "kita m11"
+        attribute m12:
+            "kita m12"
+        attribute m13:
+            "kita m13"
+        attribute m14:
+            "kita m14"
+        attribute m15:
+            "kita m15"
+        attribute m16:
+            "kita m16"
+
+    group brow:
+        attribute b1 default:
+            "kita b1"
+        attribute b2:
+            "kita b2"
+        attribute b3:
+            "kita b3"
+        attribute b4:
+            "kita b4"
+        attribute b5:
+            "kita b5"
+        attribute b6:
+            "kita b6"
+        attribute b7:
+            "kita b7"
+        attribute b8:
+            "kita b8"
+ 
+    group eyes:
+        attribute e1 default:
+            "kita e1"
+        attribute e2:
+            "kita e2"
+        attribute e3:
+            "kita e3"
+        attribute e4:
+            "kita e4"
+        attribute e5:
+            "kita e5"
+        attribute e6:
+            "kita e6"
 
 image kita:
     "kita_test.png"
@@ -17,6 +105,8 @@ image bg:
 image bg 2:
     "bg_2.png"
     zoom 2
+
+# 声明此游戏使用的角色。颜色参数可使角色姓名着色。
 
 define bc = Character('后藤一里',color="#e47f90")
 define bci = Character('', what_color= "#e47f90")
